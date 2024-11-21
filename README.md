@@ -34,3 +34,6 @@ Finally, we obtained 726 valid pcap files from 4696 APT samples, totaling 427MB.
 
 ## Non APT malicious traffic dataset
 In addition to the APT traffic dataset SJTU-APT23, we also need to collect a non APT malware traffic dataset for subsequent experiments. This traffic was collected from Malware Traffic Analysis. net (MTA), an open-source malware traffic sharing website that provides over 1600 pcap files. These pcap files contain binary files marked as malicious by IDS and antivirus software, covering various types of malware such as ransomware, spam, and macro viruses. Many researchers have already used this dataset for malware detection. From June 2013 to October 2023, we captured a total of 2965 malware pcap files, with a total size of nearly 14GB. We refer to this dataset as the MTA dataset.
+
+# Complete Dataset
+contact：zhang_heming@sjtu.edu.cn
