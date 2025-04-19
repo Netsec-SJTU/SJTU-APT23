@@ -1,6 +1,6 @@
 # SJTU-APT23
 Considering the outdated and limited coverage of existing open-source APT traffic datasets, we have developed a comprehensive APT traffic database called SJTU-APT23, which includes over 700 traffic files from 25 APT organizations. The size of the dataset is 323G. It involves two main parts: building an APT malware sample corpus and collecting APT malicious traffic data.
-##Construction of APT malware sample corpus
+## Construction of APT malware sample corpus
 To ensure that the APT traffic we collect is up-to-date, we first obtain the latest and still valid APT samples. These samples are sourced from the open platforms VirusTotal and MalwareBazaar. By integrating samples from these two sources, we collected a total of 4696 APT samples from 68 organizations, achieving extensive coverage.
 ## Collect APT malicious traffic
 We chose Falcon Sandbox and ANY. RUN, two open-source sandboxes. We have developed a crawler system that runs scripts daily from January to April 2023 to complete traffic collection.
