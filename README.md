@@ -1,5 +1,5 @@
 # SJTU-APT23
-Considering the outdated and limited coverage of existing open-source APT traffic datasets, we have developed a comprehensive APT traffic database called SJTU-APT23, which includes over 700 traffic files from 25 APT organizations. This involves two main parts: building an APT malware sample corpus and collecting APT malicious traffic data.
+Considering the outdated and limited coverage of existing open-source APT traffic datasets, we have developed a comprehensive APT traffic database called SJTU-APT23, which includes over 700 traffic files from 25 APT organizations. The size of the dataset is 323G. It involves two main parts: building an APT malware sample corpus and collecting APT malicious traffic data.
 ##Construction of APT malware sample corpus
 To ensure that the APT traffic we collect is up-to-date, we first obtain the latest and still valid APT samples. These samples are sourced from the open platforms VirusTotal and MalwareBazaar. By integrating samples from these two sources, we collected a total of 4696 APT samples from 68 organizations, achieving extensive coverage.
 ## Collect APT malicious traffic
@@ -36,4 +36,4 @@ Finally, we obtained 726 valid pcap files from 4696 APT samples, totaling 427MB.
 In addition to the APT traffic dataset SJTU-APT23, we also need to collect a non APT malware traffic dataset for subsequent experiments. This traffic was collected from Malware Traffic Analysis. net (MTA), an open-source malware traffic sharing website that provides over 1600 pcap files. These pcap files contain binary files marked as malicious by IDS and antivirus software, covering various types of malware such as ransomware, spam, and macro viruses. Many researchers have already used this dataset for malware detection. From June 2013 to October 2023, we captured a total of 2965 malware pcap files, with a total size of nearly 14GB. We refer to this dataset as the MTA dataset.
 
 # Complete Dataset
-contact：zhang_heming@sjtu.edu.cn
+The size of the full dataset is 323G and it is not possible to show all of it. Only part of the sample dataset is shown here, if you need the full dataset, contact：zhang_heming@sjtu.edu.cn
